@@ -37,17 +37,11 @@ module.exports = {
     hardhat: {
       forking: {
         enabled: true,
-        url: 'https://rpc.ankr.com/polygon',
+        url: 'https://1rpc.io/scroll/sepolia',
       },
     },
-    localhost: {
-      url: 'http://127.0.0.1:8545',
-    },
-    polygon: {
-      url: 'https://rpc.ankr.com/polygon',
-    },
-    ethereum: {
-      url: 'https://rpc.ankr.com/eth',
+    scroll: {
+      url: 'https://1rpc.io/scroll/sepolia',
     },
   },
 };
